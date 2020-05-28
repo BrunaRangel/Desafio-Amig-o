@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#header {
+    background-color:#40E0D0;
+    padding: 15px 0;
+}
+
+#header h1{
+    color:#ffffff;
+    text-align:center;
+    font-size:80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    text-align: center;
+    background: #00868B;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+main.container {
+    width: 960px;
+    margin: 20px auto;
+}
+
+.titulo_adocoes,
+.botoes_adote {
+    text-align: center;
+}
+
+.botoes{
+    background-color: #40E0D0;
+    width: 60px;
+    height: 40px;
+    border-radius: 3%;
+    color: #ffffff;
+    padding: 10px 35px;
+    margin-top: 15px;
+    border: 1px solid #00868b;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botoes:hover {
+    background-color: #00868B;
+}
+
+
+main h2{
+    color: #00868B;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+}
+
+.texto {
+    width: 60%;
+    display: inline-block;
+    text-align: justify;
+}
+
+.texto a{
+    color: #FFFFFF;
+}
+
+.segundo_texto{
+    text-align: justify;
+}
+
+.botao_voluntario{
+    background-color: #40E0D0;
+    border-radius: 3%;
+    color: #ffffff;
+    padding: 8px 12px;
+    border: 1px solid #00868b;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botao_voluntario:hover {
+    background-color: #00868B;
+}
+
+.img_sobre {
+    width: 39%;
+    display: inline-block;
+}
+
+main p{
+    font-size:20px;
+    text-indent:15px;
+    margin: 5px 30px 20px 30px;
+}
+
+main img{
+    border-radius: 220px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+figure{
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height:10px;
+
+}
+
+figure img{
+    border-radius:0;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+figcaption{
+    text-align:center;
+    line-height: 12px;
+}
+
+.botao_adotar{
+    background-color: #40E0D0;
+    border-radius: 3%;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px 40px;
+    border: 1px solid #00868b;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.botao_adotar:hover {
+    background-color: #00868B;
+}
+
+footer{
+    background: #00868B;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    height: 180px;
+
+}
+
+footer .partes_footer {
+    width: 378px;
+    padding: 15px;
+    display:block;
+    float: left;
+    margin: 10px;
+}
+
+footer h3 {
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:10px 20px 10px 10px;
+}
+
+ul.menu_footer li {
+    list-style-type: none;
+}
+
+ul.menu_footer li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul.menu_footer li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.icones img {
+    width: 25px;
+    margin-right: 10px;
+}
